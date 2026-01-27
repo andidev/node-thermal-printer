@@ -83,6 +83,9 @@ printer.setTextDoubleWidth();                               // Set text to doubl
 printer.setTextQuadArea();                                  // Set text to quad area
 printer.setTextSize(7,7);                                   // Set text height (0-7) and width (0-7)
 
+printer.setLineSpacing(40);                                 // Set line spacing
+printer.resetLineSpacing();                                 // Reset line spacing configuration
+
 printer.leftRight("Left", "Right");                         // Prints text left and right
 printer.table(["One", "Two", "Three"]);                     // Prints table equally
 printer.tableCustom([                                       // Prints table with custom settings (text, align, width, cols, bold)
@@ -337,6 +340,7 @@ printer.printBarcode(data, type, settings);
 - CUSTOM TG2480-H
 - Bematech MP-4200 TH
 - Elgin i8
+- Zywell ZY-Q821 (Supports VISCII encoding)
 
 ## Character sets
 
