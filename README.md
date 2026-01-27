@@ -335,6 +335,8 @@ printer.printBarcode(data, type, settings);
 - Brother TD-4550DNWB
 - Daruma DR800
 - CUSTOM TG2480-H
+- Bematech MP-4200 TH
+- Elgin i8
 
 ## Character sets
 
